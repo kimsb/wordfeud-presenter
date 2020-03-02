@@ -1,0 +1,31 @@
+.tile {
+  background: rgba(246,255,203,0.89);
+  line-height: 50px;
+  font-size: 1.8rem;
+  border: 1px solid black;
+}
+
+.empty {
+  background: rgba(18, 23, 20, 0.89);
+  border: 1px solid black;
+}
+
+.dl {
+  background: rgba(107,204,98,0.89);
+  border: 1px solid black;
+}
+
+.tl {
+  border: 1px solid black;
+  background: rgba(26,75,204,0.89);
+}
+
+.dw {
+  border: 1px solid black;
+  background: rgba(204,120,50,0.89);
+}
+
+.tw {
+  border: 1px solid black;
+  background: rgba(136,44,23,0.89);
+}

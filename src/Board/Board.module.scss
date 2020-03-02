@@ -1,0 +1,11 @@
+.boardBox {
+  background-color: white;
+  border: solid black;
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  justify-content: center;
+  margin: 3rem 1rem 0;
+  width: 750px;
+  height: 750px;
+}
