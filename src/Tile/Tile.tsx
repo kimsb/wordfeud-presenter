@@ -6,7 +6,7 @@ type TileProps = {
 };
 
 export const Tile: FunctionComponent<TileProps> = ({
-                                                       letter,
+                                                       letter
                                                      }) => (
   <div className={letter === '0' ? styles.empty
     : letter === '1' ? styles.dl

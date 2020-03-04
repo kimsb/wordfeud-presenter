@@ -10,6 +10,8 @@ export const Board: FunctionComponent<BoardProps> = ({
                                                              tiles,
                                                            }) => (
   <div className={styles.boardBox}>
-    {tiles.map(line => line.map(tile => <Tile letter={tile}/>))}
+    {tiles.map((line, lineIndex) =>
+      line.map((tile, index) =>
+        <Tile key={`${lineIndex}${index}`} letter={tile}/>))}
   </div>
 );
