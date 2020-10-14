@@ -1,6 +1,14 @@
 .tile {
-  background: rgba(246,255,203,0.89);
-  line-height: 50px;
+  //background: rgba(246,255,203,0.89);
+  background: rgba(246,255,233,0.89);
+  line-height: 5vh;
+  font-size: 1.8rem;
+  border: 1px solid black;
+}
+
+.newTile {
+  background: rgba(246,255,103,0.89);
+  line-height: 5vh;
   font-size: 1.8rem;
   border: 1px solid black;
 }

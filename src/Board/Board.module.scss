@@ -1,11 +1,15 @@
+.boardContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .boardBox {
   background-color: white;
   border: solid black;
   display: grid;
-  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
-  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-columns: 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh;
+  grid-template-rows: 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh;
   justify-content: center;
-  margin: 3rem 1rem 0;
-  width: 750px;
-  height: 750px;
+  width: 75vh;
+  height: 75vh;
 }
