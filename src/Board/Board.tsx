@@ -22,7 +22,6 @@ export const Board: FunctionComponent<BoardProps> = ({
 );
 
 function tileWasPlacedLastMove(x: number, y: number, lastMove: Move | null) {
-  console.log(`tilewas: x: ${x} y: ${y}`)
   if (lastMove?.moveType === 'move') {
     return lastMove.letterPlacements
       .filter(coordinate => coordinate.y === x && coordinate.x === y) //tydeligvis transposed et eller annet sted
