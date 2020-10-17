@@ -1,4 +1,4 @@
-export const HOST = 'http://localhost:23567'; //'https://wordfeud-presenter-backend.herokuapp.com'; //
+export const HOST = 'https://wordfeud-presenter-backend.herokuapp.com'; //'http://localhost:23567'; //
 
 export enum Method {
   GET = 'GET',
